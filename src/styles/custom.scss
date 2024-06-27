@@ -1,0 +1,48 @@
+// _custom.scss
+
+// Bootstrap-Variablen überschreiben
+$danger: #bc4749;
+$success: #a7c957;
+$bg-light: #f2e8cf;
+$primary: #ffc01f;
+Image {
+  
+}
+
+// Bootstrap importieren
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Eigene Stile hinzufügen
+h6 {
+  font-size: 12px; // Beispiel: Ändere die Schriftgröße
+  color: #ff5733; // Beispiel: Ändere die Schriftfarbe
+  font-weight: bold; // Beispiel: Ändere die Schriftstärke
+}
+#burgerid {
+  height: 400px; // Beibehaltung des Seitenverhältnisses
+  width: auto;
+  border: 2px solid #333; // Hinzufügen eines Rahmens um das Bild
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Hinzufügen eines Schattens
+  border-radius: 8px; // Abrunden der Ecken des Bildes
+  object-fit: cover; // Optional: Stellen Sie sicher, dass das Bild den Container ausfüllt
+}
+#pizzaid {
+  height: 400px; // Beibehaltung des Seitenverhältnisses
+  width: auto;
+  border: 2px solid #333; // Hinzufügen eines Rahmens um das Bild
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Hinzufügen eines Schattens
+  border-radius: 8px; // Abrunden der Ecken des Bildes
+  object-fit: cover; // Optional: Stellen Sie sicher, dass das Bild den Container ausfüllt
+}
+#burritoid {
+  height: 400px; // Beibehaltung des Seitenverhältnisses
+  width: auto;
+  border: 2px solid #333; // Hinzufügen eines Rahmens um das Bild
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Hinzufügen eines Schattens
+  border-radius: 8px; // Abrunden der Ecken des Bildes
+  object-fit: cover; // Optional: Stellen Sie sicher, dass das Bild den Container ausfüllt
+}
+.container {
+  width: auto;
+  height: 3000px;
+}

@@ -1,0 +1,45 @@
+import { Carousel } from 'react-bootstrap';
+import Image from 'next/image';
+import styles from '../'
+
+export default function Slider() {
+    return (
+        <div className={styles.carouselContainer}>
+            <Carousel controls={false} fade={true} interval={7000}>
+                <Carousel.Item>
+                    <div className={styles.imageWrapper}>
+                        <Image
+                            className={styles.image}
+                            src="/bilder/essen/burger.jpg"
+                            alt="Delicious burger with lettuce and tomato"
+                            layout="fill"
+                            objectFit="contain"
+                        />
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className={styles.imageWrapper}>
+                        <Image
+                            className={styles.image}
+                            src="/bilder/essen/pizza.jpg"
+                            alt="Cheesy pizza with various toppings"
+                            layout="fill"
+                            objectFit="contain"
+                        />
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className={styles.imageWrapper}>
+                        <Image
+                            className={styles.image}
+                            src="/bilder/essen/burrito.jpg"
+                            alt="Burrito filled with beans, rice, and vegetables"
+                            layout="fill"
+                            objectFit="contain"
+                        />
+                    </div>
+                </Carousel.Item>
+            </Carousel>
+        </div>
+    );
+}
